@@ -54,16 +54,16 @@ const Navbar = () => {
             <h1 className="m-6 font-bold">T.C.</h1>
             <ul className="flex flex-col gap-3">
               <li className="text-center text-xl">
-                <a href="#">Home</a>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li className="text-center text-xl ">
-                <a href="#">My Work</a>
+                <NavLink to="/work">My Work</NavLink>
               </li>
               <li className="text-center text-xl">
-                <a href="#">About Me</a>
+                <NavLink to="/about">About Me</NavLink>
               </li>
               <li className="text-center text-xl">
-                <a href="#">Contact Me</a>
+                <NavLink to="/contact">Contact Me</NavLink>
               </li>
               <li className="flex justify-center ">
                 <a href="https://github.com/coeltom">

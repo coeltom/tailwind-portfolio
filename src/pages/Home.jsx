@@ -8,11 +8,11 @@ const Home = () => {
         <ReactTyped
           className="text-3xl font-bold text-[#f2f2f2]"
           strings={['Web Developer', 'Frontend Developer']}
-          typeSpeed={70}
-          backSpeed={50}
+          typeSpeed={130}
+          backSpeed={150}
           loop></ReactTyped>
       </h1>
-      <img className="w-[450px]" src={coding} alt="" />
+      <img className="w-[450px] my-auto" src={coding} alt="" />
     </div>
   );
 };

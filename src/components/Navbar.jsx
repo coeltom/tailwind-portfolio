@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 import { IoMenu, IoClose } from 'react-icons/io5';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -18,16 +19,16 @@ const Navbar = () => {
         <div className="hidden md:flex items-center">
           <ul className="flex gap-6">
             <li>
-              <a href="#">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a href="#">My Work</a>
+              <NavLink to="/work">My Work</NavLink>
             </li>
             <li>
-              <a href="#">About Me</a>
+              <NavLink to="/about">About Me</NavLink>
             </li>
             <li>
-              <a href="#">Contact Me</a>
+              <NavLink to="/contact">Contact Me</NavLink>
             </li>
             <li>
               <a href="https://github.com/coeltom">

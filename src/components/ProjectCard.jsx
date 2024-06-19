@@ -23,7 +23,6 @@ const ProjectCard = projects => {
             <svg
               className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]"
               aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 18 18">
               <path
@@ -43,7 +42,6 @@ const ProjectCard = projects => {
             <svg
               className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]"
               aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 18 18">
               <path

@@ -7,14 +7,14 @@ const Work = () => {
       description:
         'Simple weather app that displays basic information using the OpenWeatherMap API.',
       ghub: 'https://github.com/coeltom/weather-app',
-      ldin: 'https://linkedin.com/in/tomascoe',
+      link: 'https://weather.tomascoe.dev',
     },
     {
       title: 'Movies',
       description:
         'Basic JS movie search app that displays info from the OMDB API.',
       ghub: 'https://github.com/coeltom/movies',
-      ldin: 'https://linkedin.com/in/tomascoe',
+      link: 'https://movies.tomascoe.dev',
     },
   ];
 

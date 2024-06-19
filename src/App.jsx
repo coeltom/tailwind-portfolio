@@ -1,3 +1,4 @@
+import ContactForm from './components/ContactForm';
 import Navbar from './components/Navbar';
 import AboutMe from './pages/AboutMe';
 import Home from './pages/Home';
@@ -6,7 +7,7 @@ const App = () => {
   return (
     <div className="">
       <Navbar />
-      <AboutMe />
+      <ContactForm />
     </div>
   );
 };

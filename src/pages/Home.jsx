@@ -3,7 +3,7 @@ import coding from '../assets/coding.svg';
 const Home = () => {
   return (
     <div className="h-[90vh] flex flex-col md:flex-row px-40 justify-between items-center">
-      <h1 className="flex flex-col">
+      <h1 className="flex flex-col w-full">
         Hi! I'm Tomas Coelho,
         <ReactTyped
           className="text-3xl font-bold text-[#f2f2f2]"
